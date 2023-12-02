@@ -12,5 +12,5 @@ func htmlPasre(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	http.HandleFunc("/", htmlPasre)
-	http.ListenAndServe(":8080", nil) //start server on localhost 8080 ggg
+	http.ListenAndServe(":8080", nil) //start server on localhost 8080
 }
